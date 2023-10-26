@@ -1,0 +1,136 @@
+.skill-test-wrapper {
+  padding: 30px 35px 0px 40px;
+  width: 100%;
+  border-left: 1px solid #ebf0f5;
+}
+.skill-test {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.skill-test-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.skill-test-result {
+  border: 1px solid #ebf0f5;
+  width: 655px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 28px 28px 28px;
+  align-items: center;
+}
+.skill-test-result-topic {
+  display: flex;
+}
+.skill-test-result-topic-content {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.text-heading {
+  font-size: 16px;
+  color: #222f3e;
+}
+.text-content {
+  color: #566474;
+  font-size: 12px;
+}
+
+.btn {
+  padding: 4px;
+  background-color: #142683;
+  color: white;
+  width: 120px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Ststistics */
+
+.skill-test-result-stats-wrapper {
+  border: 1px solid #ebf0f5;
+  height: 100px;
+  width: 655px;
+  border-radius: 10px;
+  /* display: flex; */
+  padding: 28px 28px 28px 28px;
+  align-items: center;
+}
+.test-result-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  align-items: center;
+}
+.test-result-stats-1 {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.image-wrapper {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #f7f8fa;
+  border: 1px solid #ebf0f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-wrapper img {
+  height: 23px;
+}
+.test-stats-result-content {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.text-stats-heading {
+  font-size: 22px;
+  color: #1e272e;
+  margin-bottom: 8px;
+}
+.text-stats-content {
+  color: #9eaab7;
+  font-size: 12px;
+}
+
+.line {
+  height: 60px;
+  border-right: 1px solid #ebf0f5;
+}
+
+/* analysis */
+.skill-test-right {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-right: 60px;
+}
+.skill-test-analysis {
+  width: 100%;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 28px 0px 28px;
+  margin-bottom: 28px;
+}
+.skill-test-analysis-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+}

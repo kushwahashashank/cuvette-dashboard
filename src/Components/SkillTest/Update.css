@@ -1,0 +1,117 @@
+.update {
+  z-index: 10;
+  /* display: none; */
+  border: 1px solid #ebf0f5;
+  width: 800px;
+  margin: auto;
+  position: fixed;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  animation: zoom-in-zoom-out 0.2s ease;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.6, 0.6);
+  }
+  25% {
+    transform: scale(0.7, 0.7);
+  }
+  50% {
+    transform: scale(0.8, 0.8);
+  }
+  75% {
+    transform: scale(0.9, 0.9);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.update-head {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebf0f5;
+  padding-bottom: 35px;
+}
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.form-input-1 {
+  display: flex;
+}
+
+.numbering {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #142683;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.input {
+  border: 1px solid #142683;
+  border-radius: 5px;
+  padding: 8px 16px 8px 16px;
+  height: 25px;
+  gap: 8px;
+  width: 140px;
+  color: #142683;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+}
+::placeholder {
+  color: #142683;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 28px;
+  padding-right: 28px;
+}
+.btn-1 {
+  border: 1px solid #142683;
+  border-radius: 5px;
+  padding: 8px 16px 8px 16px;
+  height: 44px;
+  color: #142683;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+.btn-2 {
+  border: 1px solid #142683;
+  border-radius: 5px;
+  padding: 8px 16px 8px 16px;
+  height: 44px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  background-color: #142683;
+  margin-left: 30px;
+  cursor: pointer;
+}

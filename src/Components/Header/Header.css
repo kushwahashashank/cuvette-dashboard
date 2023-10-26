@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  height: 85px;
+  border-bottom: 1px solid #ebf0f5;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.logo {
+  height: 33px;
+  cursor: pointer;
+}
+
+.user-wrapper {
+  height: 44px;
+  width: 160px;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  justify-content: space-around;
+}
+.user-image-wrapper {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-image-wrapper img {
+  height: 26px;
+}
